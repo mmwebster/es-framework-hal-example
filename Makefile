@@ -1,6 +1,6 @@
 TARGET = es_instance
 
-INCLUDE_DIRS = -I. -Ies-hal/include
+INCLUDE_DIRS = -I. -Ies-framework-hal/include
 
 ALL_OBJS = ES_Main.o SimpleEventChecker.o SimpleService.o ES_HAL.o ES_HAL_ADC.o \
 					 ES_HAL_KeyInput.o ES_HAL_PWM.o ES_HAL_Serial.o ES_HAL_Servo.o \
@@ -9,7 +9,7 @@ ALL_OBJS = ES_Main.o SimpleEventChecker.o SimpleService.o ES_HAL.o ES_HAL_ADC.o 
 					 x86_NIX_Timers.o ES_Framework.o ES_CheckEvents.o ES_KeyboardInput.o \
 					 ES_PostList.o ES_Queue.o
 
-SRC_BASE = es-hal/src
+SRC_BASE = es-framework-hal/src
 
 $(TARGET) : $(ALL_OBJS)
 	gcc $(ALL_OBJS) -o $(TARGET)
