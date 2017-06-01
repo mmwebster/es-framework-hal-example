@@ -23,7 +23,7 @@
 
 // This enables the Serial module
 #if !defined(USE_ES_HAL_SERIAL)
-#define USE_ES_HAL_SERIAL            FALSE
+#define USE_ES_HAL_SERIAL            TRUE
 #endif
 
 // This enables the Keyboard Input

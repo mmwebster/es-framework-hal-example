@@ -7,7 +7,7 @@ int main(void)
 {
     ES_Return_t ErrorType;
 
-    System_Init();
+    ES_HAL_Init();
 
     printf("Starting ES Framework Template\r\n");
     printf("using the 2nd Generation Events & Services Framework\r\n");
