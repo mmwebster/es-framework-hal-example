@@ -1,0 +1,3 @@
+[submodule "es-framework-hal"]
+	path = es-framework-hal
+	url = git@github.com:mmwebster/es-framework-hal.git
