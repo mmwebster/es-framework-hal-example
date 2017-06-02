@@ -18,6 +18,8 @@
 
 // enable/disable the HAL
 #define USE_ES_HAL
+#define YES 1
+#define NO  2
 
 //defines for keyboard input
 // #define USE_KEYBOARD_INPUT
